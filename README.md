@@ -85,3 +85,15 @@ Contributions are welcome! If you have suggestions, ideas, or want to report a b
 
 ## License
 This project is licensed under the MIT !License. See the LICENSE file for details.
+
+
+# Images
+
+![Task Manager Screenshot](images/Screenshot05.png)
+
+![Task Manager Screenshot](images/Screenshot1.png)
+
+# Terminal Image output
+![Task Manager Screenshot](images/Outpu011.png)
+
+![Task Manager Screenshot](images/Output02.png)
