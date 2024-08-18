@@ -21,6 +21,7 @@ A simple command-line tool written in Go to manage daily tasks. This tool allows
 
     ```bash
     git clone https://github.com/C9b3rD3vi1/Task_Manager.git
+    
     cd cli-task-manager
     ```
 
