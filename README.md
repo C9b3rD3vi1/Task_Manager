@@ -22,7 +22,7 @@ A simple command-line tool written in Go to manage daily tasks. This tool allows
     ```bash
     git clone https://github.com/C9b3rD3vi1/Task_Manager.git
     
-    cd cli-task-manager
+    cd Task_Manager
     ```
 
 2. **Build the project**:
@@ -36,10 +36,11 @@ A simple command-line tool written in Go to manage daily tasks. This tool allows
     After building, you can run the tool using:
 
     ```bash
-    ./task-manager -add "Buy groceries"
-    ./task-manager -list
-    ./task-manager -done 1
-    ./task-manager -remove 1
+
+    ./go ru *.go -add "Buy groceries"
+    ./go ru *.go  -list
+    ./go run *.go  -done 1
+    ./go run *.go  -remove 1
     ```
 
 ## Usage
@@ -47,38 +48,38 @@ A simple command-line tool written in Go to manage daily tasks. This tool allows
 ### Add a Task
 
 ```bash
-./task-manager -add "Your task description"
+./go run *.go  -add "Your task description"
 
 
 List All Tasks
 
-./task-manager -list
+./go run *.go  -list
 
 
 Mark a Task as Done
 
-./task-manager -done [task_id]
+./go run *.go  -done [task_id]
 
 
 Remove a Task
 
-./task-manager -remove [task_id]
+./go run *.go  -remove [task_id]
 
 
 Help
 You can get help by running:
 
-./task-manager -h
+./go run *.go  -h
 
 
 ## Example
 
-./task-manager -add "Complete Go project"
-./task-manager -add "Read a book"
-./task-manager -list
-./task-manager -done 1
-./task-manager -remove 2
-./task-manager -list
+./go run *.go  -add "Complete Go project"
+./go run *.go  -add "Read a book"
+./go run *.go  -list
+./go run *.go  -done 1
+./go run *.go  -remove 2
+./go run *.go  -list
 
 
 ## Contribution
@@ -95,6 +96,6 @@ This project is licensed under the MIT !License. See the LICENSE file for detail
 ![Task Manager Screenshot](images/Screenshot1.png)
 
 # Terminal Image output
-![Task Manager Screenshot](images/Outpu011.png)
+![Task Manager Screenshot](images/Output01.png)
 
 ![Task Manager Screenshot](images/Output02.png)
