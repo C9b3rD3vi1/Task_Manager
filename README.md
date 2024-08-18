@@ -27,7 +27,7 @@ A simple command-line tool written in Go to manage daily tasks. This tool allows
 2. **Build the project**:
 
     ```bash
-    go build -o task-manager
+    go build -o Task_Manager
     ```
 
 3. **Run the tool**:
