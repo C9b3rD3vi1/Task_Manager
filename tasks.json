@@ -53,6 +53,12 @@
       "title": "Python Class",
       "completed": false,
       "created_at": "2024-08-18T13:39:52.36893882+03:00"
+    },
+    {
+      "id": 10,
+      "title": "Coding",
+      "completed": true,
+      "created_at": "2024-08-29T22:09:34.477108555+03:00"
     }
   ]
 }
