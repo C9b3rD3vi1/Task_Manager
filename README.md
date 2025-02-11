@@ -2,7 +2,6 @@
 
 A simple design and implementation for a CLI Task Manager in Go,
 
-
 # CLI Task Manager
 
 A simple command-line tool written in Go to manage daily tasks. This tool allows you to add, list, mark as done, and remove tasks, all from your terminal. Tasks are saved to a JSON file, so your list persists between sessions.
