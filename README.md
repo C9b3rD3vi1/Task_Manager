@@ -93,9 +93,9 @@ This project is licensed under the MIT !License. See the LICENSE file for detail
 
 ![alt Task Manager Screenshot](images/Screenshot05.png)
 
-![alt Task Manager Screenshot](images/Screenshot1.png)
+![alt Task Manager Screenshot](/images/Screenshot1.png)
 
 # Terminal Image output
-![alt Task Manager Screenshot](images/Output01.png)
+![alt Task Manager Screenshot](/images/Output01.png)
 
 ![alt Task Manager Screenshot](images/Output02.png)
