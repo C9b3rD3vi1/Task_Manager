@@ -17,9 +17,12 @@ type Task struct {
     CreatedAt time.Time `json:"created_at"`
 }
 
+
+
 type TaskManager struct {
     Tasks []Task `json:"tasks"`
 }
+
 
 func (tm *TaskManager) AddTask(title string) {
     newTask := Task{

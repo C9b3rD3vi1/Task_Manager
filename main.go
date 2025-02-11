@@ -18,7 +18,8 @@ func main() {
     remove := flag.Int("remove", 0, "Remove a task by its ID")
     flag.Parse()
 
-    // Task manager instance
+    
+    // Task manager instance   
     var tm TaskManager
     err := tm.LoadFromFile(taskFile)
     if err != nil {
@@ -40,6 +41,7 @@ func main() {
         fmt.Println("No command provided. Use -h for help.")
     }
 
+    
     // Save tasks to file
     err = tm.SaveToFile(taskFile)
     if err != nil {
