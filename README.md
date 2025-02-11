@@ -91,7 +91,7 @@ This project is licensed under the MIT !License. See the LICENSE file for detail
 
 # Project working samples image
 
-![Task Manager Screenshot](images/Screenshot05.png)
+![Task Manager Screenshot](Task_Manager/images/Screenshot05.png)
 
 ![Task Manager Screenshot](images/Screenshot1.png)
 
