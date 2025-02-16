@@ -88,10 +88,8 @@ Contributions are welcome! If you have suggestions, ideas, or want to report a b
 This project is licensed under the MIT !License. See the LICENSE file for details.
 
 
-
 # Project working samples image
-
-![Task Manager Screenshot](/images/Screenshot05.png)
+![Task Manager Screenshot](images/Screenshot05.png)
 
 ![Task Manager Screenshot](images/Screenshot1.png)
 
