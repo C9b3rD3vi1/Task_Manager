@@ -89,11 +89,11 @@ This project is licensed under the MIT !License. See the LICENSE file for detail
 
 
 # Project working samples image
-![Task Manager Screenshot](images/Screenshot05.png)
+![Task Manager](images/Screenshot05.png)
 
-![Task Manager Screenshot](images/Screenshot1.png)
+![Task Manage](images/Screenshot1.png)
 
 # Terminal Image output
-![Task Manager Screenshot](images/Output01.png)
+![Task Manager](images/Output01.png)
 
-![Task Manager Screenshot](images/Output02.png)
+![Task Output](images/Output02.png)
