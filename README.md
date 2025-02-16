@@ -38,32 +38,32 @@ A simple command-line tool written in Go to manage daily tasks. This tool allows
 
 ### **Add a Task**
 
-go run *.go -add "Your task description"
+    go run *.go -add "Your task description"
 
 ### **List tasks**
 
-go run *.go -list
+    go run *.go -list
 
 ### **Mark tasks as done**
 
-go run *.go -done [task_id]
+    go run *.go -done [task_id]
 
 ### **Remove a Task**
 
-go run *.go -remove [task_id]
+    go run *.go -remove [task_id]
 
 ### **Get a Help**
 
-go run *.go -h
+    go run *.go -h
 
 ### **Example Running**
 
-go run *.go -add "Complete Go project"
-go run *.go -add "Read a book"
-go run *.go -list
-go run *.go -done 1
-go run *.go -remove 2
-go run *.go -list
+    go run *.go -add "Complete Go project"
+    go run *.go -add "Read a book"
+    go run *.go -list
+    go run *.go -done 1
+    go run *.go -remove 2
+    go run *.go -list
 
 ### **Contribution**
 
