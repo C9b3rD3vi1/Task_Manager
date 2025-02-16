@@ -1,8 +1,4 @@
-# Task_Manager
-
-A simple design and implementation for a CLI Task Manager in Go,
-
-# CLI Task Manager
+# Task Manager
 
 A simple command-line tool written in Go to manage daily tasks. This tool allows you to add, list, mark as done, and remove tasks, all from your terminal. Tasks are saved to a JSON file, so your list persists between sessions.
 
@@ -20,7 +16,6 @@ A simple command-line tool written in Go to manage daily tasks. This tool allows
 
     ```bash
     git clone https://github.com/C9b3rD3vi1/Task_Manager.git
-    
     cd Task_Manager
     ```
 
@@ -32,71 +27,61 @@ A simple command-line tool written in Go to manage daily tasks. This tool allows
 
 3. **Run the tool**:
 
-    After building, you can run the tool using:
-
     ```bash
-
-    ./go ru *.go -add "Buy groceries"
-    ./go ru *.go  -list
-    ./go run *.go  -done 1
-    ./go run *.go  -remove 1
+    go run *.go -add "Buy groceries"
+    go run *.go -list
+    go run *.go -done 1
+    go run *.go -remove 1
     ```
 
 ## Usage
 
-### Add a Task
+### **Add a Task**
 
-```bash
-./go run *.go  -add "Your task description"
+go run *.go -add "Your task description"
 
+### **List tasks**
 
-List All Tasks
+go run *.go -list
 
-./go run *.go  -list
+### **Mark tasks as done**
 
+go run *.go -done [task_id]
 
-Mark a Task as Done
+### **Remove a Task**
 
-./go run *.go  -done [task_id]
+go run *.go -remove [task_id]
 
+### **Get a Help**
 
-Remove a Task
+go run *.go -h
 
-./go run *.go  -remove [task_id]
+### **Example Running**
 
+go run *.go -add "Complete Go project"
+go run *.go -add "Read a book"
+go run *.go -list
+go run *.go -done 1
+go run *.go -remove 2
+go run *.go -list
 
-Help
-You can get help by running:
+### **Contribution**
 
-./go run *.go  -h
-
-
-## Example
-
-./go run *.go  -add "Complete Go project"
-./go run *.go  -add "Read a book"
-./go run *.go  -list
-./go run *.go  -done 1
-./go run *.go  -remove 2
-./go run *.go  -list
-
-
-## Contribution
 Contributions are welcome! If you have suggestions, ideas, or want to report a bug, please open an issue or submit a pull request.
 
-## License
-This project is licensed under the MIT !License. See the LICENSE file for details.
+### **License**
 
+The project is licensed under the MIT License. See the LICENSE file for details.
 
-# Project working samples image
-![Task Manager](images/Screenshot05.png)
+### **Project working samples**
 
-![Task Manage](images/Screenshot1.png)
-
-# Terminal Image output
 ![Task Manager](images/Output01.png)
 
-![Task Output](images/Output02.png)
+![Task Manager](images/Output02.png)
 
-![Task Output](images/Output03.png)
+### **Terminal**
+
+![Task Manager](images/Screenshot1.png)
+
+![Task Manager](images/Screenshot05.png)
 
