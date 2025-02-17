@@ -84,4 +84,3 @@ The project is licensed under the MIT License. See the LICENSE file for details.
 ![Task Manager](images/Screenshot1.png)
 
 ![Task Manager](images/Screenshot05.png)
-
